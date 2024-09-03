@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{663658CB-356F-410B-92DC-5D14E10C599A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>up_4ever</RootNamespace>
+    <AssemblyName>up-4ever</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44338</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>up-4ever.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>up-4ever.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="Web.config" />
+    <Content Include="W_files\1c2fd14bf310b6aff649.html" />
+    <Content Include="W_files\24px.svg" />
+    <Content Include="W_files\aframe.html" />
+    <Content Include="W_files\checksync.html" />
+    <Content Include="W_files\cm%281%29.html" />
+    <Content Include="W_files\cm.html" />
+    <Content Include="W_files\default.png" />
+    <Content Include="W_files\en_bl.png" />
+    <Content Include="W_files\f%281%29.txt" />
+    <Content Include="W_files\f%282%29.txt" />
+    <Content Include="W_files\f%283%29.txt" />
+    <Content Include="W_files\f%284%29.txt" />
+    <Content Include="W_files\f.txt" />
+    <Content Include="W_files\favicon.ico" />
+    <Content Include="W_files\googlelogo_color_42x16dp.png" />
+    <Content Include="W_files\icon.png" />
+    <Content Include="W_files\infinity.js.aspx" />
+    <Content Include="W_files\multi-sync.html" />
+    <Content Include="W_files\px%281%29.gif" />
+    <Content Include="W_files\px.gif" />
+    <Content Include="W_files\saved_resource%281%29.html" />
+    <Content Include="W_files\saved_resource%2810%29.html" />
+    <Content Include="W_files\saved_resource%2811%29.html" />
+    <Content Include="W_files\saved_resource%2812%29.html" />
+    <Content Include="W_files\saved_resource%2813%29.html" />
+    <Content Include="W_files\saved_resource%282%29.html" />
+    <Content Include="W_files\saved_resource%283%29.html" />
+    <Content Include="W_files\saved_resource%284%29.html" />
+    <Content Include="W_files\saved_resource%285%29.html" />
+    <Content Include="W_files\saved_resource%286%29.html" />
+    <Content Include="W_files\saved_resource%287%29.html" />
+    <Content Include="W_files\saved_resource%288%29.html" />
+    <Content Include="W_files\saved_resource%289%29.html" />
+    <Content Include="W_files\saved_resource.html" />
+    <Content Include="W_files\sync.html" />
+    <Content Include="W_files\topics_frame.html" />
+    <Content Include="W_files\user_sync.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="W_files\13913172449719718510" />
+    <Content Include="W_files\17494115938463050724" />
+    <Content Include="W_files\183096492" />
+    <Content Include="W_files\5295709221109236883" />
+    <Content Include="W_files\abilene.js.téléchargé" />
+    <Content Include="W_files\adview" />
+    <Content Include="W_files\AGSKWxVkkDA8Hw2uFkMJgA_VFelz2HrAuNqJpe4wJtaw9VIDQ75s5-C08WSnvq9AZn5n5Ogz9W2sPSxLvg0FE93YhjMTN_VK4DEJv_bwpOtMXr_FabtK32M4gC4nxzbSAYXX_c2rZSjG9A==" />
+    <Content Include="W_files\AGSKWxW2KPVnYu0shONoIIaQivpw5WpBAtdiJ2ewjYeeHLEa98DOctt9HLkxDAk4yeDGZ9rTE4LMv1yZPrzS6Tb7XU2nWshOGXoc1VQgF-2JlDa09U3BbQkQEQk7WSUAK63UQb75ySMD1w==" />
+    <Content Include="W_files\AGSKWxWl8WZvWjIgrGhQADpdjAHhsJTulxj3k2jHkX3X8hyHeRofG1hTCFEqMGMWayQS-pmeZO44nsRp6pcOLtRi7IQ-C10_rheF58Lzu860GCWIh2p66CQU0JjhWG1RqFQNTXrJ_ZO1kg==" />
+    <Content Include="W_files\AGSKWxX8X1sNA15ddbH5_nZ_TnSly57ymTdSRrEFpT4TAX_ueFI00lPmr87uKz1Jh_LvGjIFu8KRHGfZwXbgkPIvjnQjZnXnPoWZ5HfqcYs1jJVr5vpJ0OMvadhj9vf_gHIqPktUGa-VcA==" />
+    <Content Include="W_files\amp-ad-exit-0.1.js.téléchargé" />
+    <Content Include="W_files\amp-analytics-0.1.js.téléchargé" />
+    <Content Include="W_files\amp-fit-text-0.1.js.téléchargé" />
+    <Content Include="W_files\amp-form-0.1.js.téléchargé" />
+    <Content Include="W_files\amp4ads-v0.js.téléchargé" />
+    <Content Include="W_files\amplitude-8.5.0-min.gz.js.téléchargé" />
+    <Content Include="W_files\analytics.js.téléchargé" />
+    <Content Include="W_files\boise.js.téléchargé" />
+    <Content Include="W_files\chanute.js.téléchargé" />
+    <Content Include="W_files\cmp.min.js.téléchargé" />
+    <Content Include="W_files\css" />
+    <Content Include="W_files\element.js.téléchargé" />
+    <Content Include="W_files\encrypted-tag-g.js.téléchargé" />
+    <Content Include="W_files\esp.js.téléchargé" />
+    <Content Include="W_files\et.js.téléchargé" />
+    <Content Include="W_files\gtm.js.téléchargé" />
+    <Content Include="W_files\js" />
+    <Content Include="W_files\js%281%29" />
+    <Content Include="W_files\l" />
+    <Content Include="W_files\l%281%29" />
+    <Content Include="W_files\l%282%29" />
+    <Content Include="W_files\m=el_main" />
+    <Content Include="W_files\m=el_main_css" />
+    <Content Include="W_files\mulvane.js.téléchargé" />
+    <Content Include="W_files\ob.js.téléchargé" />
+    <Content Include="W_files\olathe.js.téléchargé" />
+    <Content Include="W_files\prebid8.10.0.js.téléchargé" />
+    <Content Include="W_files\pubcid.min.js.téléchargé" />
+    <Content Include="W_files\publishertag.ids.js.téléchargé" />
+    <Content Include="W_files\raleigh.js.téléchargé" />
+    <Content Include="W_files\sa.js.téléchargé" />
+    <Content Include="W_files\sa.min.js.téléchargé" />
+    <Content Include="W_files\sodar" />
+    <Content Include="W_files\tag" />
+    <Content Include="W_files\Tag.engine" />
+    <Content Include="W_files\uid2SecureSignal.js.téléchargé" />
+    <Content Include="W_files\vcd15cbe7772f49c399c6a5babf22c1241717689176015" />
+    <Content Include="W_files\vista.js.téléchargé" />
+    <Content Include="W_files\vitals.js.téléchargé" />
+    <Content Include="W_files\wichita.js.téléchargé" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53905</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44338/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
